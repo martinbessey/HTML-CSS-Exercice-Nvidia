@@ -77,16 +77,25 @@ aside figure{
     width:25%;
 }
 .ressources{
+    padding-top: 2%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
+.ressources:last-child{
+    padding-right: 15%;
+}
 .partners{
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
 }
-.partners figure{
-    width: 20px;
+.partners a{
+    display:flex;
+    width: 50px;
+}
+.partnerslinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
